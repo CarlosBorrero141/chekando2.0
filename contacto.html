@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Solucione en logística para la administración de información en empresas o personal de manera organizada, practica y eficaz.">
+    <meta name="keywords" content="logistica, informacion, aplicacion web, organizacion de informacion, control, calidad">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=PT+Sans:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Chekando|Contacto</title>
+</head>
+
+<body>
+    <header class="barra">
+        <div class="container-fluid navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logop.svg" alt="Chekeando" width="120" height="120" />
+          </a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <nav
+            class="collapse navbar-collapse barra_navegacion justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="empresas.html">Empresas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="personas.html">Personas</a>
+              </li>
+              <li class="nav-item disabled">
+                <a class="nav-link" href="contacto.html">Contactanos</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <div class="container">
+        <h2 class="tituloContacto">Contactanos</h2>
+        <div class="form-group">
+        <form action="contacto_envio.php" method="GET" id="formilario">
+          <fieldset>
+            <legend>Escribenos un mensaje</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" placeholder="Su nombre completo" id="nombre" />
+            <br />
+            <label for="correo">Correo</label>
+            <input type="email" class="form-control" placeholder="example@example.com" name="" id="correo" />
+            <br />
+            <label for="estado">Estado Civil</label>
+            <select class="form-control" name="estado" id="estado">
+              <option value="soltero">Soltero</option>
+              <option value="casado">Casado</option>
+              <option value="otros">Otros</option>
+            </select>
+            <br />
+            <label for="newsletter">Desea recibir el Newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter" value="1" />
+            <br />
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" name="" id="mesaje" cols="30" rows="10" placeholder="Tu mesaje"></textarea>
+            <br />
+            <input class="btn_primario btn btn-outline-warning" type="submit" value="Enviar" class="boton"/>
+            <input class="btn_primario btn btn-outline-warning" type="reset" value="Limpiar" class="boton" />
+          </fieldset>
+        </div>
+        </form>
+      </div>
+
+      <footer class="barra">
+        <div class="container-fluid navbar navbar-expand-lg navbar-dark">
+         <a class="navbar-brand" href="index.html">
+           <img src="img/logop.svg" alt="Chekeando" width="120" height="120" />
+         </a>
+ 
+ 
+         <nav
+           class=" barra_navegacion "
+           id="navbarNav"
+         >
+           <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+             <li class="nav-item">
+               <a class="nav-link disabled" href="index.html">Inicio</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="nosotros.html">Nosotros</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="empresas.html">Empresas</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="personas.html">Personas</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="contacto.html">Contactanos</a>
+             </li>
+           </ul>
+         </nav>
+       </div>
+     </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+        
+        </body>
+        
+        </html>
