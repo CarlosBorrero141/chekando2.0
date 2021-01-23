@@ -5,7 +5,9 @@ html {
   }
   
   body {
-    background-color:$color-segundario;
+    background-image: url(../img/bg5.png);
+    background-repeat: no-repeat;
+ 
   }
   
   h1,
@@ -61,7 +63,7 @@ html {
   
   /*navegacion*/
   .barra {
-    background-color: $color-primario;
+    background-color: rgba( 28, 28, 28, 0.75 );
 
     .barra_navegacion ul li {
       margin: 0 1rem;
@@ -80,14 +82,15 @@ html {
   }
   
   /*Empresas*/
+
+  
   
   .servicioEmpresas{
-    background: rgba( 28, 28, 28, 0.30 );
+    background: rgba( 28, 28, 28, 0.70 );
     box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.65 );
     backdrop-filter: blur( 11.0px );
     -webkit-backdrop-filter: blur( 11.0px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
     font-size: 1.5rem;
     padding: 2rem;
     margin: 4rem;
@@ -103,7 +106,6 @@ html {
     backdrop-filter: blur( 11.0px );
     -webkit-backdrop-filter: blur( 11.0px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
       border-radius: 1.3rem;
       margin: 4rem;
       padding: 2rem;
