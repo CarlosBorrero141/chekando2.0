@@ -29,6 +29,9 @@ label {
   font-weight: 400;
   line-height: 2rem; }
 
+.centrar {
+  text-align: center; }
+
 .tituloSeccion {
   color: #d9d9d5;
   margin: 5rem 0;
@@ -99,26 +102,24 @@ label {
   margin: 1rem; }
 
 /*Nosotros*/
-.nosotros {
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  color: #d9d9d5; }
+.nosotros_texto {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #d9d9d5;
+  margin: 5rem; }
 
-.nosotros_contenedor {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto; }
+.equipo {
+  text-align: center; }
 
-.nosotros_contenedor_imagen {
-  flex-basis: 66.6%;
-  align-items: center; }
+.equipo img {
+  width: 80%;
+  border-radius: 50%;
+  border: solid 5px #c6b326;
+  margin: 2rem; }
 
-.nosotros_contenedor_texto {
-  flex-basis: calc(33.3% - 2rem);
-  align-items: center; }
+.equipo p {
+  font-size: 1.5rem;
+  text-align: center; }
 
 /*Contacto*/
 label {
