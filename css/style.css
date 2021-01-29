@@ -30,7 +30,8 @@ label {
   line-height: 2rem; }
 
 .centrar {
-  text-align: center; }
+  text-align: center;
+  justify-content: center; }
 
 .tituloSeccion {
   color: #d9d9d5;
@@ -66,6 +67,11 @@ label {
   text-decoration: underline 2px #c6b326;
   transition: ease 1s; }
 
+/*Carrusel*/
+@media (min-width: 1500px) {
+  .fotos_carrusel {
+    height: 85vh; } }
+
 /*Empresas*/
 .servicioEmpresas {
   background: rgba(28, 28, 28, 0.7);
@@ -94,19 +100,34 @@ label {
   max-width: 300px;
   max-height: 400px;
   min-width: 260px;
-  text-align: center; }
+  text-align: center;
+  justify-items: center; }
 
 .personalServicio img {
   max-width: 100px;
   min-width: 100px;
   margin: 1rem; }
 
+.personalServicio p {
+  font-size: 1.5rem;
+  text-align: justify; }
+
 /*Nosotros*/
 .nosotros_texto {
   font-size: 1.5rem;
   text-align: justify;
-  color: #d9d9d5;
-  margin: 5rem; }
+  color: #c6b326;
+  margin: 5rem auto;
+  background: rgba(28, 28, 28, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 10px;
+  padding: 4rem; }
+
+@media (min-width: 1080px) {
+  .nosotros_texto {
+    margin: 5rem 20rem; } }
 
 .equipo {
   text-align: center; }
@@ -121,7 +142,19 @@ label {
   font-size: 1.5rem;
   text-align: center; }
 
+.equipo_full {
+  margin: 10rem auto; }
+
 /*Contacto*/
 label {
   color: #d9d9d5;
   font-size: 2rem; }
+
+.texto_contacto {
+  font-size: 1.5rem;
+  text-align: justify; }
+
+.mapa {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 2rem; }
