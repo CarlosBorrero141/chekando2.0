@@ -53,6 +53,10 @@ html {
       font-size: 5rem;
     }
   }
+
+  .espacio_abajo{
+    margin-bottom: 5rem;
+  }
   
   /*Boton*/
   .btn_primario {
@@ -62,6 +66,26 @@ html {
     margin: 0 1rem 5rem 1rem;
     font-size: 1.5rem;
     border-radius: 0.8rem;
+  }
+
+  .btn_empresas {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin: 3rem auto;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    max-width: 30%;
+    height:40%;
+    padding: 2rem;
+  }
+
+  @media (min-width:  768px){
+    .btn_empresas{
+      margin: 30rem auto;
+    margin-bottom: 0;
+    }
   }
   
   /*navegacion*/
@@ -108,6 +132,54 @@ html {
     max-width: 400px;
     max-height: 400px;
     min-width: 260px;
+  }
+
+  .bg_empresas{
+    background-image: url(../img/empresas_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+    margin: 3rem auto;
+  }
+
+  @media (min-width: 768px){
+    .bg_empresas{
+      padding: 10rem;
+    }
+  }
+
+  .texto_empresas{
+    background: rgba( 28, 28, 28, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.65 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border-radius: 10px;
+      border-radius: 1.3rem;
+      margin: 3rem;
+      padding: 1rem;
+      text-align: justify;
+      
+  }
+
+  .texto_empresas h2{
+    font-size: 2.3rem;
+  }
+
+  @media (min-width: 768px){
+    .texto_empresas h2{
+      font-size: 3.5rem;
+    }
+  }
+
+  .texto_empresas h2{
+    color: white;
+  }
+  
+  .texto_empresas p, ul{
+    font-size: 1.5rem;
+  }
+  .img_bio{
+    width: 100%;
   }
   
   /*Personas*/

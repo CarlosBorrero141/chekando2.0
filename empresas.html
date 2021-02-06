@@ -1,78 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Solucione en logística para la administración de información en empresas o personal de manera organizada, practica y eficaz.">
-    <meta name="keywords" content="logistica, informacion, aplicacion web, organizacion de informacion, control, calidad">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Solucione en logística para la administración de información en empresas o personal de manera organizada, practica y eficaz."
+    />
+    <meta
+      name="keywords"
+      content="logistica, informacion, aplicacion web, organizacion de informacion, control, calidad"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=PT+Sans:wght@700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=PT+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Chekando|Empresas</title>
-</head>
+  </head>
 
-<body>
-  <header class="barra">
-    <div class="container-fluid navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/logop.svg" alt="Chekeando" width="120" height="120" />
-      </a>
+  <body>
+    <header class="barra">
+      <div class="container-fluid navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logop.svg" alt="Chekeando" width="120" height="120" />
+        </a>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <nav
-        class="collapse navbar-collapse barra_navegacion justify-content-end"
-        id="navbarNav"
-      >
-        <ul class="navbar-nav ml-auto mt-2 mt-md-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="empresas.html">Empresas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="personas.html">Personas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contactanos</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-      <section class="container"> <!--Seccion Empresas-->
-      
-      <h2 class="">Servicios para Empresas</h2>
+        <nav
+          class="collapse navbar-collapse barra_navegacion justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="empresas.html">Empresas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="personas.html">Personas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactanos</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div class="container">
-        <div class="row justify-content-center">
-        <div class="col-md">
-        <img src="img/empp.png" alt="empresas" class="img-fluid"/>
+    </header>
+
+    <section>
+      <h2 class="centrar">Servicios empresariales</h2>
+      <div class="bg_empresas row">
+        <div class="container texto_empresas col-md" data-aos="fade-right">
+          <h2>
+            Ofrecemeos varios servicios que se acomodan a las nesecidades de tu
+            empresa, agenda una cita y preguntanos por los servicios
+            empresariales pensados en las nesecidades de tu empresa.
+          </h2>
         </div>
-        <div class="col-md">
-          <div class="servicioEmpresas text-warning">
-            <h3>Bioseguridad</h3>
+        <a
+          href="pages/contactanos.html"
+          class="btn_empresas btn btn-warning col-md"
+          data-aos="fade-left"
+          >Agenda tu cita</a
+        >
+      </div>
+    </section>
+
+    <section class="container">
+      <div>
+        <h2>Servicios en Bioseguridad</h2>
+
+        <div class="row">
+
+          <div class="col-md" data-aos="fade-right" data-aos-delay="400">
+          <img src="img/Bioseguridad.jpeg" alt="Bioseguridad" class="img_bio" />
+        </div>
+          <div class="col-md-3 texto_empresas text-warning" data-aos="fade-left" data-aos-delay="200">
+            <p>
+              La importancia de la Bioseguridad hoy en dia se ha vuelto un tema de mayor relevancia para las empresas; no dejes que la tuya se quede atras, no permitas que la pandemia convierta en caos tu informacion.
+            </p>
+            <br>
 
             <ul>
               <li><strong>Beneficios</strong></li>
@@ -86,12 +114,23 @@
               <li>Oficinas</li>
               <li>Comercio</li>
             </ul>
-          
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="servicioEmpresas text-warning">
-            <h3>Calidad</h3>
+    <section class="container espacio_abajo">
+      <div>
+        <h2>Servicios en Calidad</h2>
 
+        <div class="row">
+
+          
+          <div class="col-md-3 texto_empresas text-warning" data-aos="fade-right" data-aos-delay="400">
+            <p>
+              Agiliza tus procesos de calidad, desaste del papeleo innesesario y transforma tu empresa al entorno digital, garantizamos mayor eficiencia y efectividad para el manejo de tu informacion interna.
+            </p>
+            <br>
             <ul>
               <li><strong>Beneficios</strong></li>
               <li>Seguridad en la Informacion</li>
@@ -105,28 +144,21 @@
               <li>Chequeo de Entregas</li>
             </ul>
           </div>
-          
+          <div class="col-md">
+            <img src="img/calidad.jpeg" alt="Bioseguridad" class="img_bio" data-aos="fade-left" data-aos-delay="200"/>
+          </div>
+          </div>
         </div>
       </div>
-     
     </section>
-    <!--Cierre seccion empresas-->
-
-
-
 
     <footer class="barra">
-       <div class="container-fluid navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.html">
           <img src="img/logop.svg" alt="Chekeando" width="120" height="120" />
         </a>
 
-        
-
-        <nav
-          class=" navegacion "
-          id="navbarNav"
-        >
+        <nav class="barra_navegacion" id="navbarNav">
           <ul class="navbar-nav ml-auto mt-2 mt-md-0">
             <li class="nav-item">
               <a class="nav-link disabled" href="index.html">Inicio</a>
@@ -148,14 +180,19 @@
       </div>
     </footer>
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
