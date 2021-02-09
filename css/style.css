@@ -125,7 +125,7 @@ label {
   min-width: 260px; }
 
 .bg_empresas {
-  background-image: url(../img/empresas_bg.jpeg);
+  background-image: url(../img/empresas_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5rem;
@@ -194,7 +194,7 @@ label {
   text-align: justify; }
 
 .bg_personas {
-  background-image: url(../img/bg_personas.jpeg);
+  background-image: url(../img/bg_personas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5rem;
