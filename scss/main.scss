@@ -54,9 +54,21 @@ html {
     }
   }
 
-  .espacio_abajo{
-    margin-bottom: 5rem;
+  
+
+  .espacio_arriba{
+    margin-top: 8rem !important;
   }
+
+  @media (min-width: 768px){
+    .espacio_arriba_grande{
+      margin-top: 12rem !important;
+    }
+    .espacio_abajo{
+      margin-bottom: 8rem;
+    }
+  }
+ 
   
   /*Boton*/
   .btn_primario {
@@ -69,6 +81,19 @@ html {
   }
 
   .btn_empresas {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin: 3rem auto;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    max-width: 30%;
+    height:40%;
+    padding: 2rem;
+  }
+
+  .btn_personas {
     display: flex;
     justify-content: center;
     align-items:baseline;
@@ -155,19 +180,29 @@ html {
     -webkit-backdrop-filter: blur( 11.0px );
     border-radius: 10px;
       border-radius: 1.3rem;
-      margin: 3rem;
+      margin: 2rem auto;
       padding: 1rem;
       text-align: justify;
+      align-items: center;
       
+      
+      
+      
+  }
+
+  .texto_mobile{
+    max-width: 300px;
   }
 
   .texto_empresas h2{
     font-size: 2.3rem;
+    
   }
 
   @media (min-width: 768px){
     .texto_empresas h2{
       font-size: 3.5rem;
+     
     }
   }
 
@@ -177,6 +212,9 @@ html {
   
   .texto_empresas p, ul{
     font-size: 1.5rem;
+    margin-top: 3rem;
+  
+    
   }
   .img_bio{
     width: 100%;
@@ -212,6 +250,46 @@ html {
     text-align: justify;
   }
   
+  .bg_personas{
+    background-image: url(../img/bg_personas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+    margin: 3rem auto;
+  }
+
+  @media (min-width: 768px){
+    .bg_personas{
+      padding: 10rem;
+    }
+  }
+
+  .texto_personas{
+    background: rgba( 28, 28, 28, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.65 );
+    backdrop-filter: blur( 11.0px );
+    -webkit-backdrop-filter: blur( 11.0px );
+    border-radius: 10px;
+      border-radius: 1.3rem;
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: justify;
+      align-items: center;
+      
+  }
+
+  .texto_personas h2{
+    font-size: 2.3rem;
+    
+  }
+
+  @media (min-width: 768px){
+    .texto_personas h2{
+      font-size: 3.5rem;
+     
+    }
+  }
+
   
   /*Nosotros*/
  
@@ -266,6 +344,11 @@ label{
 }
 
 .texto_contacto{
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.texto_contacto legend{
   font-size: 1.5rem;
   text-align: justify;
 }

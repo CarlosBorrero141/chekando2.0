@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Chekando|Persona</title>
 </head>
@@ -61,61 +62,64 @@
     </div>
   </header>
 
-   <section class="container">
-      <!--Seccion de Personal-->
-      <h2>Personal</h2>
-
-      <div class="container">
-      <div class="row">
-        <div class="personalServicio text-warning col-md">
-          <img src="img/banco.png" alt="banco" /><!--Aca iria un Icono-->
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-            aliquid harum necessitatibus, consequuntur consequatur, sequi labore
-            sunt iusto natus voluptatum optio nostrum, ipsam perferendis
-            repudiandae voluptatem doloremque. Dignissimos, consequatur
-            nemo?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-            aliquid harum necessitatibus, consequuntur consequatur, sequi labore
-            sunt iusto natus voluptatum optio nostrum, ipsam perferendis
-          </p>
-        </div>
-
-        <div class="personalServicio text-warning col-md">
-          <img src="img/proteger.png" alt="proteger" /><!--Aca iria un Icono-->
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-            aliquid harum necessitatibus, consequuntur consequatur, sequi labore
-            sunt iusto natus voluptatum optio nostrum, ipsam perferendis
-            repudiandae voluptatem doloremque. Dignissimos, consequatur
-            nemo?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-            aliquid harum necessitatibus, consequuntur consequatur, sequi labore
-            sunt iusto natus voluptatum optio nostrum, ipsam perferendis
-          </p>
-        </div>
-
-        <div class="personalServicio text-warning col-md">
-          <img src="img/usuario.png" alt="usuario" /><!--Aca iria un Icono-->
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-            aliquid harum necessitatibus, consequuntur consequatur, sequi labore
-            sunt iusto natus voluptatum optio nostrum, ipsam perferendis
-            repudiandae voluptatem doloremque. Dignissimos, consequatur
-            nemo?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-            aliquid harum necessitatibus, consequuntur consequatur, sequi labore
-            sunt iusto natus voluptatum optio nostrum, ipsam perferendis
-          </p>
-        </div>
-        </div>
+  <section>
+    <h2 class="centrar">Servicios Personales</h2>
+    <div class="bg_personas">
+      <div class="container texto_personas" data-aos="fade-right">
+        <h2>
+          Nos ajustamos a tus nesecidades, agenda una cita con nosotros y conoce todas las posibilidades  de manejo de informacion personal que pueden ayudar a mejorar tu dia a dia, desde organizacion de tus finanzas hasta las labores del hogar, podemos hacer que todo sea mas eficiente a travez de la era digital.
+        </h2>
       </div>
-   
-    </section>
+      <a
+        href="contacto.html"
+        class="btn_personas btn btn-warning "
+        data-aos="fade-left"
+        >Agenda tu cita</a
+      >
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="row centrar">
+
+      <img src="img/banca_personal.jpeg" alt="" class="col-md-8 espacio_arriba espacio_abajo" data-aos="fade-right" data-aos-delay="400">
+
+      <div data-aos="fade-left" data-aos-delay="500" class="personalServicio text-warning col-md espacio_arriba_grande">
+        <img src="img/banco.png" alt="banco" /><!--Aca iria un Icono-->
+        <p>
+          Lleva tus cuentas claras, no dejes que se te enrreden las cuentas y se te pasen, con nuestro sistema de organizacion de informacion no dejes que se te quede nada de esos pendientes que tienes.
+        </p>
+      </div>
+
+      <img src="img/proteccion.jpeg" alt="" class="col-md-8 espacio_abajo" data-aos="fade-right" data-aos-delay="400">
+
+      
+      <div data-aos="fade-left" data-aos-delay="500" class="personalServicio text-warning col-md">
+        <img src="img/proteger.png" alt="proteger" /><!--Aca iria un Icono-->
+        <p>
+          Protege tu informacion personal, con Chekando te aseguramos la seguridad de la informacion que ingreses a nuestra plataforma, con tu usuario y contraseña seras la unica persona que pueda accedera a ella. 
+        </p>
+      </div>
+
+
+      <img src="img/personal.jpeg" alt="" class="col-md-8 espacio abajo" data-aos="fade-right" data-aos-delay="400"> 
+
+      <div data-aos="fade-left" data-aos-delay="500"  class="personalServicio text-warning col-md">
+        <img src="img/usuario.png" alt="usuario" /><!--Aca iria un Icono-->
+        <p>
+          Personaliza tu forma de guardar tu informacion, sabemos que cada persona es diferente, por eso puedes personalizar la forma en la que guardas y visualizas tu informacion segun las nesecidades que tengas.
+        </p>
+      </div>
+      </div>
+    </div>
+  </section>
     <!--Cierre seccion de Personal-->
 
 
 
 
 
-    <footer class="barra">
+    <footer class="barra espacio_arriba">
        <div class="container-fluid navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.html">
           <img src="img/logop.svg" alt="Chekeando" width="120" height="120" />
@@ -155,6 +159,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 

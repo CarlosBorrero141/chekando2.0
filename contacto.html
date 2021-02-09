@@ -66,32 +66,35 @@
         <div class="form-group">
         <form action="contacto_envio.php" method="GET" id="formilario">
           <fieldset>
-            <legend>Escribenos un mensaje</legend>
             <label for="nombre">Nombre</label>
             <input type="text" class="form-control" placeholder="Su nombre completo" id="nombre" />
             <br />
             <label for="correo">Correo</label>
             <input type="email" class="form-control" placeholder="example@example.com" name="" id="correo" />
             <br />
-            <label for="estado">Estado Civil</label>
-            <select class="form-control" name="estado" id="estado">
-              <option value="soltero">Soltero</option>
-              <option value="casado">Casado</option>
-              <option value="otros">Otros</option>
-            </select>
-            <br />
+           
             <label for="newsletter">Desea recibir el Newsletter</label>
             <input type="checkbox" name="newsletter" id="newsletter" value="1" />
             <br />
             <label for="mensaje">Mensaje</label>
             <textarea class="form-control" name="" id="mesaje" cols="30" rows="10" placeholder="Tu mesaje"></textarea>
             <br />
-            <input class="btn_primario btn btn-outline-warning" type="submit" value="Enviar" class="boton"/>
-            <input class="btn_primario btn btn-outline-warning" type="reset" value="Limpiar" class="boton" />
+            <div class="row">
+            <input class="btn_primario btn btn-outline-warning col-md" type="submit" value="Enviar" class="boton"/>
+            <input class="btn_primario btn btn-outline-warning col-md" type="reset" value="Limpiar" class="boton" />
+          </div>
           </fieldset>
         </div>
         </form>
       </div>
+
+      <div class="container">
+
+      <h2>Ubicacion</h2>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3968556682853!2d-74.04854593466442!3d4.700919846585512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab15f7816c1%3A0xe3ad4052ee774ef3!2sSanta%20Barbara%20Occidental%2C%20Usaqu%C3%A9n%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1611939486026!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mapa"></iframe>
+
+    </div>
 
       <footer class="barra">
         <div class="container-fluid navbar navbar-expand-lg navbar-dark">
